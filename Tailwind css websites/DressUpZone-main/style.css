@@ -68,8 +68,43 @@
 
 
 }
-.sectionGap{
-    margin: 8rem auto;
+/* Section styling */
+.sectionGap {
+    padding: 50px 0;
+     background-color: #aeaaff;
+}
+/* Card container */
+.iconCard {
+     background-color: #fff;
+     border-radius: 20px;
+     padding: 40px 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+ /* Icon styling */
+.iconCard i {
+    font-size: 40px;
+    color: #6c63ff;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+/* Text styling */
+.iconCard h6 {
+    font-weight: 600;
+    margin-top: 10px;
+    color: #333;
+ }
+
+/* Hover effect */
+.iconCard:hover {
+   transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.iconCard:hover i {
+    transform: scale(1.2);
+    color: #4a42d6;
 }
 html{
      scroll-behavior: smooth;
